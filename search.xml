@@ -3,12 +3,11 @@
   <entry>
     <title>Segment Tree 线段树笔记</title>
     <url>/2025/01/27/Segment%20Tree/</url>
-    <content><![CDATA[<h1 id="算法描述"><a href="#算法描述" class="headerlink" title="算法描述"></a>算法描述</h1><blockquote>
+    <content><![CDATA[<span id="more"></span>
+<h1 id="算法描述"><a href="#算法描述" class="headerlink" title="算法描述"></a>算法描述</h1><blockquote>
 <p>线段树是一种能够处理区间修改和区间查询的数据结构。</p>
 </blockquote>
 <p>顾名思义，线段树就是一种存储着线段数据的树形结构。它的每个节点都表示一个线段区间，每个节点的孩子节点存储的就是该区间的左半段和右半段。每个线段区间都存储着一个值，一般是区间和，也有可能是区间最大&#x2F;最小值。</p>
-<span id="more"></span>
-
 <h1 id="算法实现"><a href="#算法实现" class="headerlink" title="算法实现"></a>算法实现</h1><p>线段树使用数组实现，根节点编号为 $1$ 表示区间 $1$ 到 $n$，左子节点是 $i \times 2$，右子节点是 $i \times 2 + 1$.</p>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function">ll <span class="title">lc</span><span class="params">(ll p)</span></span>&#123;<span class="keyword">return</span> p &lt;&lt; <span class="number">1</span>;&#125;</span><br><span class="line"><span class="function">ll <span class="title">rc</span><span class="params">(ll p)</span></span>&#123;<span class="keyword">return</span> p &lt;&lt; <span class="number">1</span> | <span class="number">1</span>;&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><p>从根节点开始，不断的分割区间直到该区间只剩单个数，然后开始向上汇总。传入两个变量 <code>l</code> 和 <code>r</code>， 表示当前节点表示的线段。</p>
@@ -34,12 +33,11 @@
   <entry>
     <title>Sparse Table ST表笔记</title>
     <url>/2025/01/27/Sparse%20Table/</url>
-    <content><![CDATA[<h2 id="问题叙述"><a href="#问题叙述" class="headerlink" title="问题叙述"></a>问题叙述</h2><blockquote>
+    <content><![CDATA[<span id="more"></span>
+<h2 id="问题叙述"><a href="#问题叙述" class="headerlink" title="问题叙述"></a>问题叙述</h2><blockquote>
 <p>RMQ 是 Range Maximum&#x2F;Minimum Query 的缩写，表示可重复贡献的区间最大&#x2F;最小值。</p>
 </blockquote>
 <p>显而易见的，可以用线段树实现。但是由于该问题不涉及修改操作，且线段树太长了不好写，十分浪费时间。</p>
-<span id="more"></span>
-
 <p>这是就需要用到好理解又好写的ST表了。</p>
 <h2 id="算法思路"><a href="#算法思路" class="headerlink" title="算法思路"></a>算法思路</h2><blockquote>
 <p>ST表(Sparse Table)是用于解决<strong>可重复贡献问题</strong>的数据结构。</p>
