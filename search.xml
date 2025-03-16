@@ -69,7 +69,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Sparse Table ST表笔记</title>
+    <title>Floyd 全源最短路径算法笔记</title>
     <url>/2024/10/13/Floyd/</url>
     <content><![CDATA[<p>多源最短路径最简单、最实用、最好理解，同时也是最慢的经典算法。</p>
 <span id="more"></span>
