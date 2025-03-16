@@ -3,7 +3,8 @@
   <entry>
     <title>Segment Tree 线段树笔记</title>
     <url>/2025/01/27/Segment%20Tree/</url>
-    <content><![CDATA[<span id="more"></span>
+    <content><![CDATA[<p>线段树相关</p>
+<span id="more"></span>
 <h1 id="算法描述"><a href="#算法描述" class="headerlink" title="算法描述"></a>算法描述</h1><blockquote>
 <p>线段树是一种能够处理区间修改和区间查询的数据结构。</p>
 </blockquote>
@@ -33,7 +34,8 @@
   <entry>
     <title>Sparse Table ST表笔记</title>
     <url>/2025/01/27/Sparse%20Table/</url>
-    <content><![CDATA[<span id="more"></span>
+    <content><![CDATA[<p>ST表相关</p>
+<span id="more"></span>
 <h2 id="问题叙述"><a href="#问题叙述" class="headerlink" title="问题叙述"></a>问题叙述</h2><blockquote>
 <p>RMQ 是 Range Maximum&#x2F;Minimum Query 的缩写，表示可重复贡献的区间最大&#x2F;最小值。</p>
 </blockquote>
