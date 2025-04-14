@@ -239,7 +239,7 @@
   </entry>
   <entry>
     <title>LCA 最近共同祖先算法笔记</title>
-    <url>/2025/03/02/Lowest%20Common%20Ancestor/</url>
+    <url>/2024/12/21/Lowest%20Common%20Ancestor/</url>
     <content><![CDATA[<h1 id="算法描述"><a href="#算法描述" class="headerlink" title="算法描述"></a>算法描述</h1><blockquote>
 <p>恐龙，是指三角龙、现代鸟类和梁龙的最近共同祖先 (LCA) 及其所有后代。  ——百度百科</p>
 </blockquote>
@@ -263,7 +263,7 @@
   </entry>
   <entry>
     <title>Sparse Table ST表笔记</title>
-    <url>/2025/02/22/Sparse%20Table/</url>
+    <url>/2024/11/10/Sparse%20Table/</url>
     <content><![CDATA[<h1 id="问题叙述"><a href="#问题叙述" class="headerlink" title="问题叙述"></a>问题叙述</h1><blockquote>
 <p>RMQ 是 Range Maximum/Minimum Query 的缩写，表示可重复贡献的区间最大/最小值。</p>
 </blockquote>
@@ -344,6 +344,18 @@
       <tags>
         <tag>sketch</tag>
         <tag>design</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Animation vs. Minecraft 浅谈</title>
+    <url>/2025/04/14/AvM/</url>
+    <content><![CDATA[<h3 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h3>]]></content>
+      <categories>
+        <category>Favourite</category>
+      </categories>
+      <tags>
+        <tag>animation</tag>
+        <tag>alan becker</tag>
       </tags>
   </entry>
 </search>
